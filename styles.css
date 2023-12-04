@@ -21,7 +21,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
 }
 .logo i {
     color: greenyellow;
@@ -37,6 +37,7 @@ header {
 nav {
     display: flex;
     gap: 24px;
+    font-weight: bold;
 }
 nav a {
     color: rgb(30, 48, 80);
@@ -47,6 +48,7 @@ nav a {
     gap: 24px;
 }
 .right-nav a {
+    font-weight: bold;
     color: rgb(30, 48, 80);
 }
 .right-nav i {
@@ -55,8 +57,8 @@ nav a {
 
 h1 {
     display: flex;
-    justify-content: left;
-    padding-left: 10%;
+    justify-content: flex-start;
+    padding-left: 20%;
     padding-top: 5%;
     font-size: 3.5rem;
     padding-bottom: 32px;
